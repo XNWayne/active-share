@@ -171,10 +171,9 @@ span {
 /* Attribution  */
 
 .attribution {
-  position: fixed;
+ position: fixed;
   top: 80%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
   font-size: 11px;
   text-align: center;
@@ -291,7 +290,8 @@ span {
   }
 
   .attribution {
-    position: relative;
-    top: 100%;
+    position: absolute;
+    top: 98%;
+    margin-bottom: 10px;
   }
 }
